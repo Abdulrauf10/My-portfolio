@@ -1,0 +1,156 @@
+.home_style {
+  background-color: #111;
+  height: 100vh;
+  width: 100%;
+}
+
+.main_feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.image_profile {
+ width: 200px;
+ display: flex;
+ position: relative;
+ border: solid 3px gray;
+ border-radius: 3px;
+ float: right;
+}
+
+.right_side {
+ color: white;
+}
+
+.framework {
+  padding-bottom: 40px;
+  color: yellow;
+}
+
+.to_portfolio {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 20px;
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.to_portfolio:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.layout_socialmedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.social_media {
+  list-style: none;
+}
+
+.social_media li > a {
+  font-size: 40px;
+}
+
+.social_media .fa-linkedin {
+  color: blue;
+}
+
+.social_media .fa-github-square {
+  color: white;
+}
+
+.social_media .fa-medium {
+  color: rgb(9, 100, 9);
+}
+
+@media only screen and (max-width: 400px) {
+  .social_media {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .social_media li > a {
+    margin-right: 10px;
+  }
+
+  .main_feature {
+    margin-top: 30px;
+  }
+
+  .home_style {
+    height: fit-content;
+  }
+
+  .image_profile {
+    float: left;
+  }
+
+  .framework {
+    margin-bottom: -20px;
+  }
+
+  .layout_socialmedia {
+    display: flex;
+    height: 0;
+    float: left;
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .social_media {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  .social_media li > a {
+    margin-right: 10px;
+  }
+
+  .main_feature {
+    margin-top: 30px;
+  }
+
+  .home_style {
+    height: 100vh;
+  }
+
+  .image_profile {
+    float: left;
+  }
+
+  .layout_socialmedia {
+    display: flex;
+    height: 0;
+    float: left;
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .social_media li > a {
+    margin-right: 10px;
+  }
+
+  .main_feature {
+    margin-top: 30px;
+  }
+
+  .home_style {
+    height: 100vh;
+
+  }
+
+  .image_profile {
+    float: left;
+  }
+}

@@ -1,0 +1,30 @@
+.portfolio {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.card:hover {
+  box-shadow: 3px 3px #a0a0a0;
+}
+
+.button_toweb {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .button_toweb {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .button_toweb {
+    margin-bottom: 10px;
+  }
+}
