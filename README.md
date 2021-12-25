@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Personal website with react.js
+
+<img src="src/images/website.JPG" />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
